@@ -9,6 +9,88 @@
  */
 {
   "sections": {
+    "slideshow_9ziznk": {
+      "type": "slideshow",
+      "blocks": {
+        "image_j69WWb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Eros_magneses_tartas_1.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_j69WWb"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
+      }
+    },
+    "image_with_text_overlay_e4xy3D": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_LHz4DC": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_yMQRKB": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_gBGCB4": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_LHz4DC",
+        "heading_yMQRKB",
+        "richtext_gBGCB4"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "scrolling-text": {
       "type": "scrolling-text",
       "settings": {
@@ -156,6 +238,8 @@
     }
   },
   "order": [
+    "slideshow_9ziznk",
+    "image_with_text_overlay_e4xy3D",
     "scrolling-text",
     "rich_text_xFGCyf",
     "image-with-text-overlay",
